@@ -10,9 +10,8 @@ namespace DotNet_Fundamentos.Models
         public string Nome { get; set; }
         public int Idade { get; set; }
 
-        public void Apresentar(string @class)
+        public void Apresentar()
         {
-            @class = "Teste";
             Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");
         }
     }
