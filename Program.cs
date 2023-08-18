@@ -1,8 +1,28 @@
 ﻿
 using DotNet_Fundamentos.Models;
 
-Pessoa pessoa1 = new Pessoa();
+string apresentacao = "Olá, seja bem vindo!";
 
-pessoa1.Nome = "Reju";
-pessoa1.Idade = 20;
-pessoa1.Apresentar();
+int quantidade = 1;
+
+double altura = 1.80;
+
+decimal preco = 1.80M;
+
+bool condicao = true;
+
+Console.WriteLine(apresentacao);
+Console.WriteLine("Valor da variável quantidade: " + quantidade);
+Console.WriteLine("Valor da variável altura: " + altura);
+Console.WriteLine("Valor da variável preco: " + preco);
+Console.WriteLine("Valor da variável condição: " + condicao);
+
+
+
+// Pessoa pessoa1 = new Pessoa();
+
+// pessoa1.Nome = "Reju";
+// pessoa1.Idade = 20;
+// pessoa1.Apresentar();
+
+// Pessoa pessoaFisica = new Pessoa();
