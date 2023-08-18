@@ -1,21 +1,30 @@
 ﻿
+using System;
 using DotNet_Fundamentos.Models;
 
-string apresentacao = "Olá, seja bem vindo!";
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine(dataAtual);
 
-int quantidade = 1;
 
-double altura = 1.80;
 
-decimal preco = 1.80M;
+// string apresentacao = "Olá, seja bem vindo!";
 
-bool condicao = true;
+// int quantidade = 1;
+// Console.WriteLine("Valor da variável quantidade: " + quantidade);
+// quantidade = 10;
+// Console.WriteLine("Valor da variável quantidade: " + quantidade);
 
-Console.WriteLine(apresentacao);
-Console.WriteLine("Valor da variável quantidade: " + quantidade);
-Console.WriteLine("Valor da variável altura: " + altura);
-Console.WriteLine("Valor da variável preco: " + preco);
-Console.WriteLine("Valor da variável condição: " + condicao);
+// double altura = 1.80;
+
+// decimal preco = 1.80M;
+
+// bool condicao = true;
+
+// Console.WriteLine(apresentacao);
+// Console.WriteLine("Valor da variável quantidade: " + quantidade);
+// Console.WriteLine("Valor da variável altura: " + altura.ToString("0.00"));
+// Console.WriteLine("Valor da variável preco: " + preco);
+// Console.WriteLine("Valor da variável condição: " + condicao);
 
 
 
