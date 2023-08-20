@@ -2,8 +2,37 @@
 using System;
 using DotNet_Fundamentos.Models;
 
-DateTime dataAtual = DateTime.Now;
-Console.WriteLine(dataAtual);
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("É vogal");
+        break;
+    default:
+        Console.WriteLine("Não é vogal");
+        break;
+}
+
+
+
+// string a = "15-";
+
+// int b = 0;
+
+// int.TryParse(a, out b);
+
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão realizada com sucesso!");
+
+
+// DateTime dataAtual = DateTime.Now;
+// Console.WriteLine(dataAtual);
 
 
 

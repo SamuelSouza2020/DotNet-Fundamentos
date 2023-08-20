@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "oGNDFpgqSyahjG4WYQxnVWnXeE5zXVXodu4fFg174GD6mzaG4fOjzk3hQV86XkAFF71pc5Gd05Yy7xKMpuPHyg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\samue\\OneDrive\\Área de Trabalho\\Study DotNet\\Fundamentos\\DotNet-Fundamentos\\DotNet-Fundamentos.csproj",
-=======
   "dgSpecHash": "ssf0MRNvSoQtheamNQpFMm/cjPMv2cmjqo/jC6ZwIcL1ydXxGacWUOeVhfA1oVZg4ew3LPhEwhz087nsPPp2Tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\samuc\\Desktop\\DotNet\\DotNet-Fundamentos\\DotNet-Fundamentos.csproj",
->>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }
