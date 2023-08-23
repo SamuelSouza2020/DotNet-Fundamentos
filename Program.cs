@@ -4,13 +4,22 @@ using DotNet_Fundamentos.Models;
 
 
 Calculadora calculadora = new Calculadora();
-calculadora.Somar(5, 4);
-calculadora.Subtrair(5, 4);
-calculadora.Multiplicar(5, 4);
-calculadora.Dividir(8, 4);
-calculadora.Potencia(8, 2);
+calculadora.Seno(30);
+calculadora.Coseno(30);
+calculadora.Tangente(30);
 
-Console.WriteLine("Digite uma letra");
+
+// calculadora.Somar(5, 4);
+// calculadora.Subtrair(5, 4);
+// calculadora.Multiplicar(5, 4);
+// calculadora.Dividir(8, 4);
+// calculadora.Potencia(8, 2);
+
+
+
+
+
+// Console.WriteLine("Digite uma letra");
 // string letra = Console.ReadLine();
 
 // switch (letra)
