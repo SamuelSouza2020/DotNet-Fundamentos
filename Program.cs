@@ -3,10 +3,15 @@ using System;
 using DotNet_Fundamentos.Models;
 
 
-Calculadora calculadora = new Calculadora();
-calculadora.Seno(30);
-calculadora.Coseno(30);
-calculadora.Tangente(30);
+// Calculadora calculadora = new Calculadora();
+// calculadora.Seno(30);
+// calculadora.Coseno(30);
+// calculadora.Tangente(30);
+
+for(int i = 0; i <= 10; i++)
+{
+    Console.WriteLine("8 X " + i + " = " + i * 8);
+}
 
 
 // calculadora.Somar(5, 4);
